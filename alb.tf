@@ -1,9 +1,3 @@
-# Author    : Ranjit Kumar Swain
-# Web       : www.ranjitswain.com
-# YouTube   : https://www.youtube.com/c/ranjitswain
-# GitHub    : https://github.com/ranjit4github
-########################################################
-
 resource "aws_lb" "alb" {
   name               = "test-lb-tf"
   internal           = false
